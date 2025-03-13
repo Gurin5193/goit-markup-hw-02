@@ -3,87 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
-    <header class="header">
-      <nav>
-        <a class="header-logo" href="./index.html"
-          >Web<span class="header-logo-studio">Studio</span></a
+    <header class="header-page">
+      <nav class="header-nav">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-studio">Studio</span></a
         >
         <ul class="list-nav">
-          <li>
-            <a class="list-nav-studio" href="">Studio</a>
+          <li class="item-nav">
+            <a class="link-nav" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a class="list-nav-portfolio" href="">Portfolio</a>
+          <li class="item-nav">
+            <a class="link-nav" href="">Portfolio</a>
           </li>
-          <li><a class="list-nav-contacts" href="">Contacts</a></li>
+          <li class="item-nav">
+            <a class="link-nav" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
+      <address class="contacts">
         <ul class="list-contacts">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="item-contacts">
+            <a class="link-contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="item-contacts">
+            <a class="link-contacts" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-solutions">
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button class="btn-order" type="button">Order Service</button>
       </section>
 
-      <section>
-        <h2>Objectives of the task and their solutions</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="section-text">
+        <h2 style="display: none">
+          Objectives of the task and their solutions
+        </h2>
+
+        <ul class="list-text">
+          <li class="item-text">
+            <h3 class="title-text">Strategy</h3>
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="item-text">
+            <h3 class="title-text">Punctuality</h3>
+            <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="item-text">
+            <h3 class="title-text">Diligence</h3>
+            <p class="text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="item-text">
+            <h3 class="title-text">Technologies</h3>
+            <p class="text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
+
       <section>
         <h2>Our Team</h2>
         <ul>
